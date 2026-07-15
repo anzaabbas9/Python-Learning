@@ -1,0 +1,6 @@
+print("1st python program----print function")
+print("it is declared as")
+print('print("hello world..")')
+print("hello"+"world")
+print("hello "+" world")
+print("hello"+" "+"world")
