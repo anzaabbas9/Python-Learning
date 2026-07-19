@@ -111,6 +111,28 @@ length=len(movies_list)
 print(length)
 """
 
+"""
+1. Grocery List Manager
+Create a list of 5 grocery items. Add 2 more items, remove 1 item you no longer need,
+and print the final list sorted alphabetically."""
+"""grocery_list=['tea','sugar','noodles','oil','salt']
+grocery_list.remove('sugar')
+print(grocery_list)
+grocery_list.append("flour")
+grocery_list.append("rice")
+grocery_list.sort()
+print(grocery_list)"""
+
+"""
+Revised Question 2 — Duplicate Remover (loop-free version)
+Create a list with some repeated numbers, e.g. numbers = [1, 2, 2, 3, 4, 4, 5]. Convert it to a set 
+to automatically remove duplicates,then convert it back to a list. Print the result."""
+"""numbers=[1,2,2,3,5,6,7,5]
+set1=set(numbers)
+list1=list(set1)
+print(list1)"""
+
+
 
 
 
