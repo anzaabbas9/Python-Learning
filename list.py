@@ -132,6 +132,19 @@ set1=set(numbers)
 list1=list(set1)
 print(list1)"""
 
+"""
+. Duplicate Remover (without using set())
+Create a list with some repeated numbers, e.g. [1, 2, 2, 3, 4, 4, 5]. Write code that builds a new 
+list containing only unique values, using a loop and in to check before adding."""
+number=[1,3,4,3,2]
+number_list=[]
+for i in number:
+    if i in number_list:
+        continue
+    else:
+        number_list.append(i)
+print(number_list)
+
 
 
 
