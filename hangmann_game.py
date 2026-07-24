@@ -68,7 +68,13 @@ stages = [
 ]
 word = random.choice(word_list)
 attempt = 6
+<<<<<<< HEAD
 blank_list = ["-"] * len(word)
+=======
+print(list(word))
+blank_list = ["-"] * len(word)
+print(blank_list)
+>>>>>>> 2fef1381829d138812455d52f767e97691762fd7
 print(" ".join(blank_list))
 while True:
     letter = input("guess a letter:")
