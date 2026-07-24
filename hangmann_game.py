@@ -87,6 +87,6 @@ while True:
     if attempt <= 0:
         break
 if "-" not in blank_list and attempt > 0:
-    print("you win!!!")
+    print("you win!")
 else:
-    print("you lose!!!")
+    print("you lose!")
