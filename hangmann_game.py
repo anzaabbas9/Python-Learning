@@ -68,9 +68,7 @@ stages = [
 ]
 word = random.choice(word_list)
 attempt = 6
-print(list(word))
 blank_list = ["-"] * len(word)
-print(blank_list)
 print(" ".join(blank_list))
 while True:
     letter = input("guess a letter:")
